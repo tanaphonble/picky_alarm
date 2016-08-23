@@ -43,7 +43,7 @@ public class PickyAlarmFragment extends Fragment {
 
         @Override
         public void onBindViewHolder(AlarmHolder holder, int position) {
-
+            holder.bindAlarmItem();
         }
 
         @Override
@@ -56,6 +56,9 @@ public class PickyAlarmFragment extends Fragment {
 
         public AlarmHolder(View itemView) {
             super(itemView);
+        }
+
+        public void bindAlarmItem() {
         }
     }
 }
