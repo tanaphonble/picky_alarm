@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PickyAlarm</string>
+    <string name="title_activity_picky_alarm">PickyAlarmActivity</string>
+    <string name="title_activity_test">test</string>
+</resources>
